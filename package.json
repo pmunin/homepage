@@ -1,0 +1,40 @@
+{
+  "name": "pmunin.com",
+  "version": "0.1.5",
+  "description": "My homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+	"postinstall":"bower install"
+  },
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+	"bower":"^1.7.2"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmunin/homepage.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1",
+    "wiredep": "^2.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/pmunin/homepage/issues"
+  },
+  "homepage": "https://pmunin.com",
+  "author": "Philipp Munin"
+}
