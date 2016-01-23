@@ -32,6 +32,7 @@
     <Compile Include="public\site.js" />
     <Content Include="views\layout.ejs" />
     <Content Include="views\pages\index.ejs" />
+    <Content Include="views\pages\resume.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public" />
