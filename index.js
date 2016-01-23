@@ -1,5 +1,9 @@
 var express = require('express');
+var engine = require('ejs-locals');
 var app = express();
+
+// use ejs-locals for all ejs templates:
+app.engine('ejs', engine);
 
 app.set('port', (process.env.PORT || 5000));
 
