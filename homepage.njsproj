@@ -25,6 +25,7 @@
     <Content Include="package.json" />
     <Content Include="procfile" />
     <Content Include="public\favicon.ico" />
+    <Content Include="public\favicon.png" />
     <Content Include="README.md" />
     <Compile Include="index.js" />
     <Content Include="public\site.css" />
