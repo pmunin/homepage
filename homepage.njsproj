@@ -31,6 +31,7 @@
     <Content Include="public\site.css" />
     <Compile Include="public\site.js" />
     <Content Include="views\layout.ejs" />
+    <Content Include="views\pages\contact.ejs" />
     <Content Include="views\pages\index.ejs" />
     <Content Include="views\pages\resume.ejs" />
   </ItemGroup>
